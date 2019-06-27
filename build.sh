@@ -19,7 +19,6 @@ DEBUG="0"
 ## Version strings:
 VERSION="4.19.55"
 BUILD="1"
-V6_VERSION=$BUILD
 V7_VERSION=$BUILD
 V8_VERSION=$BUILD
 
@@ -43,106 +42,21 @@ FW_BRANCH="4.19.55"
 ##GIT_BRANCH="rpi-4.19.15-re4son"	 	 	         ## 4.19.15 kernel commit: b5a33968098aa5aab149e86215de48213aa8d572 
 ##FW_REPO="Re4son/RPi-Distro-firmware"
 ##FW_BRANCH="4.19.15"
-###################################################
-##             4.14.89-Re4son                    ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.14.89-re4son"	 	 	         ## 4.14.89 kernel commit: af369f47021f11e78017c0a98e55cb934b501c36 
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="debian"
-###################################################
-##             4.14.80-Re4son                    ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.14.80-re4son"	 	 	         ## 4.14.80 Commit used for firmware 1.20181112release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="debian"
-###################################################
-##             4.14.69-Re4son                    ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.14.69-re4son"	 	 	         ## 4.14.62 Commit used for firmware 1.20180912 release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.14.69"
-###################################################
-##             4.14.62-Re4son                    ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.14.62-re4son"	 	 	         ## 4.14.62 Commit used for firmware 1.20180817 release
-###GIT_BRANCH="rpi-4.14.62-p4wnp1"	 	 	                 ## 4.14.62 Commit used for firmware 1.20180817 release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.14.62"
-###################################################
-##             4.14.50-Re4son                    ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.14.50-re4son"	 	 	         ## 4.14.50 Commit used for firmware 1.20180619 release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.14.50"
-###################################################
-##             4.14.30-Re4son                    ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.14.30-re4son"	 	 	         ## 4.14.30 Commit used for firmware 1.20180328 release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.14.30"
-###################################################
-##             4.9.80-Re4son                     ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.9.80-re4son"	 	 	         ## 4.9.80 Commit used for firmware Re4son-4.80 release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.14.26"
-###################################################
-##             4.4.28                            ##
-##GIT_BRANCH="1423ac8bfbfb2a9d092b604c676e7a58a5fa3367"          ## 4.9.28 Commit used for firmware 1.20170515 release
-###################################################
-##             4.4.24                            ##
-##GIT_BRANCH="ef3b440e0e4d9ca70060483aa33d5b1201ceceb8"          ## 4.9.24 Commit used for firmware 1.20170427 release
-###################################################
-##             4.9.59-Re4son                     ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.9.59-re4son"	 	 	         ## 4.9.59 Commit used for firmware 1.20171029 release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.9.59"
-###################################################
-##             4.9.41-Re4son                     ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.9.41-re4son"	 	 	         ## 4.9.41 Commit used for firmware 1.20170811 release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.9.41"
-###################################################
-##             4.9.24-Re4son                     ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.9.24-re4son"  		 	         ## 4.9.24 Commit used for firmware 1.20170427 release
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.9.41"
-###################################################
-##             4.4.50-Re4son                     ##
-##GIT_REPO="Re4son/re4son-raspberrypi-linux"
-##GIT_BRANCH="rpi-4.4.50-re4son"
-##FW_REPO="Re4son/RPi-Distro-firmware"
-##FW_BRANCH="4.4.50"
-###################################################
-##      4.4.50-Re4son-Master                     ##
-##GIT_BRANCH="rpi-4.4.50-re4son-master"
-###################################################
-##             4.4.50                            ##
-##GIT_BRANCH="e223d71ef728c559aa865d0c5a4cedbdf8789cfd"          ## 4.4.50 Commit used for firmware 1.20170405 release
-
-
-##GIT_BRANCH="rpi-4.4.y-re4son"
 
 ## defconfigs:
-V6_DEFAULT_CONFIG="arch/arm/configs/re4son_pi1_defconfig"
 V7_DEFAULT_CONFIG="arch/arm/configs/re4son_pi2_defconfig"
 V8_DEFAULT_CONFIG="arch/arm64/configs/re4son_pi8_defconfig"
 ##V6_DEFAULT_CONFIG="arch/arm/configs/bcmrpi_defconfig"
 ##V7_DEFAULT_CONFIG="arch/arm/configs/bcm2709_defconfig"
 
-V6_CONFIG=""
 v7_CONFIG=""
 v8_CONFIG=""
 
-export DEBFULLNAME=Re4son
-export DEBEMAIL=re4son@whitedome.com.au
+export DEBFULLNAME=TempleEngineering
+export DEBEMAIL=ieee@temple.edu
 
-UNAME_STRING="${VERSION}-Re4son+"
-UNAME_STRING7="${VERSION}-Re4son-v7+"
-UNAME_STRING8="${VERSION}-Re4son-v8+"
+UNAME_STRING7="${VERSION}-Temple-v7+"
+UNAME_STRING8="${VERSION}-Temple-v8+"
 CURRENT_DATE=`date +%Y%m%d`
 NEW_VERSION="${VERSION}-${CURRENT_DATE}"
 
@@ -155,14 +69,11 @@ PKG_DIR="${PKG_TMP}/kalipi-firmware_${NEW_VERSION}"
 TOOLS_DIR="/opt/kernel-builder_tools"
 FIRMWARE_DIR="/opt/kernel-builder_RPi-Distro-firmware"
 KERNEL_SRC_DIR="${REPO_ROOT}${GIT_REPO}/all"
-KERNEL_OUT_DIR_V6=/opt/kernel-builder_kernel_out/v6
 KERNEL_OUT_DIR_V7=/opt/kernel-builder_kernel_out/v7
 KERNEL_OUT_DIR_V8=/opt/kernel-builder_kernel_out/v8
 KERNEL_MOD_DIR=/opt/kernel-builder_mod
 KERNEL_HEADERS_OUT_DIR=/opt/kernel-builder_headers_out
 PKG_IN="/opt/kernel-builder_pkg_in/"
-NEXMON_DIR="/opt/re4son-nexmon"
-
 
 NUM_CPUS=`nproc`
 
@@ -204,7 +115,6 @@ function debug_info() {
         printf "UNAME_STRING8:\t$UNAME_STRING8\n"
         printf "REPO_ROOT:\t$REPO_ROOT\n"
 	printf "KERNEL_SRC_DIR:\t&KERNEL_SRC_DIR\n"
-        printf "KERNEL_OUT_DIR_V6:\t\t$KERNEL_OUT_DIR_V6\n"
         printf "KERNEL_OUT_DIR_V7:\t\t$KERNEL_OUT_DIR_V7\n"
         printf "KERNEL_OUT_DIR_V8:\t\t$KERNEL_OUT_DIR_V8\n"
         printf "HEAD_SRC_DIR:\t$HEAD_SRC_DIR\n"
@@ -213,7 +123,6 @@ function debug_info() {
         printf "PKG_DIR:\t$PKG_DIR\n"
         printf "MOD_DIR:\t$MOD_DIR\n"
         printf "FIRMWARE_DIR:\t$FIRMWARE_DIR\n"
-        printf "NEXMON_DIR:\t$NEXMON_DIR\n"
         printf "NEW_VERSION:\t$NEW_VERSION\n"
         printf "\nFIRMWARE INFO:\n\n"
         if [ -f ${FIRMWARE_DIR}/extra/git_hash ]; then
@@ -237,8 +146,6 @@ usage: re4sonbuild [options]
     -p        Create packages only (no compilation - expects tar.xz input files in package directory)
     -b        The git branch to use
               Default: Default git branch of repo
-    -6        The config file to use when compiling for Raspi v6
-              Default: $V6_DEFAULT_CONFIG
     -7        The config file to use when compiling for Raspi v7
               Default: $V7_DEFAULT_CONFIG
     -8        The config file to use when compiling for Raspi v8
@@ -253,17 +160,6 @@ function clean() {
     fi	
     clean_kernel_src_dir
     echo "**** Cleaning up kernel working dirs ****"
-    if [ -d $KERNEL_OUT_DIR_V6 ]; then
-	rm -rf $KERNEL_OUT_DIR_V6
-	mkdir $KERNEL_OUT_DIR_V6
-	chown $SUDO_USER:$SUDO_USER $KERNEL_OUT_DIR_V6
-        echo "**** Cleaning ${KERNEL_OUT_DIR_V6} ****"
-        if [ "$V6_VERSION" != "" ]; then
-            echo "**** Setting version to ${V6_VERSION} ****"
-            ((version = $V6_VERSION -1))
-            echo $version > $KERNEL_OUT_DIR_V6\/\.version
-        fi
-    fi
     if [ -d $KERNEL_OUT_DIR_V7 ]; then
 	rm -rf $KERNEL_OUT_DIR_V7
 	mkdir $KERNEL_OUT_DIR_V7
@@ -379,13 +275,6 @@ function setup_pkg_dir() {
     mkdir -p $PKG_DIR/headers/usr/src/
 }
 
-function setup_native_v6_pkg_dir() {
-    # Set up the debian package folder
-    printf "\n**** SETTING UP DEBIAN PACKAGE DIRECTORY v6 ****\n"
-    mkdir -p $PKG_DIR/boot/overlays/
-    mkdir -p $PKG_DIR/headers/usr/src/linux-headers-$UNAME_STRING/
-}
-
 function setup_native_v7_pkg_dir() {
     # Set up the debian package folder
     printf "\n**** SETTING UP DEBIAN PACKAGE DIRECTORY v7 ****\n"
@@ -451,37 +340,6 @@ function prep_kernel_out_dir() {
     cp -rf $KERNEL_SRC_DIR/drivers/net/wireless/realtek/rtl8192eu/hal/phydm/phydm.mk $kernel_out_dir/drivers/net/wireless/realtek/rtl8192eu/hal/phydm/
 }
 
-function make_v6() {
-    # RasPi v6 build
-    printf "\n**** COMPILING V6 KERNEL (ARMEL) ****\n"
-    prep_kernel_out_dir $KERNEL_OUT_DIR_V6
-    CCPREFIX=${TOOLS_DIR}/arm-bcm2708/arm-bcm2708-linux-gnueabi/bin/arm-bcm2708-linux-gnueabi-
-    if [ ! -f .config ]; then
-        if [ "$V6_CONFIG" == "" ]; then
-            cp $KERNEL_SRC_DIR/${V6_DEFAULT_CONFIG} $KERNEL_OUT_DIR_V6/.config
-        else
-            cp ${V6_CONFIG} $KERNEL_OUT_DIR_V6/.config
-        fi
-    fi
-    make ARCH=arm CROSS_COMPILE=${CCPREFIX} O=$KERNEL_OUT_DIR_V6 -C $KERNEL_SRC_DIR menuconfig
-    echo "**** SAVING A COPY OF YOUR v6 CONFIG TO $KERNEL_BUILDER_DIR/configs/re4son_pi1_defconfig ****"
-    cp -f $KERNEL_OUT_DIR_V6/.config $KERNEL_BUILDER_DIR/configs/re4son_pi1_defconfig
-    echo "**** COMPILING v6 KERNEL ****"
-    make ARCH=arm CROSS_COMPILE=${CCPREFIX} O=$KERNEL_OUT_DIR_V6 -C $KERNEL_SRC_DIR -j${NUM_CPUS} -k zImage modules dtbs
-    make ARCH=arm CROSS_COMPILE=${CCPREFIX} O=$KERNEL_OUT_DIR_V6 -C $KERNEL_SRC_DIR INSTALL_MOD_PATH=${MOD_DIR} -j${NUM_CPUS} modules_install
-    ## mkknlimg is no longer in tools
-    ## ${TOOLS_DIR}/mkimage/mkknlimg arch/arm/boot/zImage $PKG_DIR/boot/kernel.img
-    ## It is now found in the scripts directory of the Linux tree, where they are covered by the kernel licence
-    $KERNEL_SRC_DIR/scripts/mkknlimg $KERNEL_OUT_DIR_V6/arch/arm/boot/zImage $PKG_DIR/boot/kernel.img
-    ## Remove symbolic links to non-existent headers and sources
-    rm -f ${MOD_DIR}/lib/modules/*/build
-    rm -f ${MOD_DIR}/lib/modules/*/source
-    ## Copy our modules across
-    cp -r ${MOD_DIR}/lib/* ${PKG_DIR}
-    ## Copy our Module.symvers across
-    mkdir -p $PKG_DIR/headers/usr/src/linux-headers-$UNAME_STRING/
-    cp $KERNEL_OUT_DIR_V6/Module.symvers $PKG_DIR/headers/usr/src/linux-headers-$UNAME_STRING/
-}
 
 function make_v7() {
     # RasPi v7 build
@@ -548,41 +406,6 @@ function make_v8() {
     ## Copy our Module.symvers across
     mkdir -p $PKG_DIR/headers/usr/src/linux-headers-$UNAME_STRING8/
     cp $KERNEL_OUT_DIR_V8/Module.symvers $PKG_DIR/headers/usr/src/linux-headers-$UNAME_STRING8/
-}
-
-function make_native_v6() {
-    # RasPi v6 build
-    printf "\n**** COMPILING V6 KERNEL (ARMEL) NATIVELY****\n"
-    prep_kernel_out_dir $KERNEL_OUT_DIR_V6
-    if [ ! -f .config ]; then
-        if [ "$V6_CONFIG" == "" ]; then
-            cp $KERNEL_SRC_DIR/${V6_DEFAULT_CONFIG} $KERNEL_OUT_DIR_V6/.config
-        else
-            cp ${V6_CONFIG} $KERNEL_OUT_DIR_V6/.config
-        fi
-    fi
-    make O=$KERNEL_OUT_DIR_V6 -C $KERNEL_SRC_DIR menuconfig
-    echo "**** SAVING A COPY OF YOUR v6 CONFIG TO $KERNEL_BUILDER_DIR/configs/re4son_pi1_defconfig ****"
-    cp -f $KERNEL_OUT_DIR_V6/.config $KERNEL_BUILDER_DIR/configs/re4son_pi1_defconfig
-    echo "**** COMPILING v6 KERNEL ****"
-    make O=$KERNEL_OUT_DIR_V6 -C $KERNEL_SRC_DIR -j${NUM_CPUS} -k zImage modules dtbs
-    make O=$KERNEL_OUT_DIR_V6 -C $KERNEL_SRC_DIR INSTALL_MOD_PATH=${MOD_DIR} -j${NUM_CPUS} modules_install
-    ## mkknlimg is no longer in tools
-    ## ${TOOLS_DIR}/mkimage/mkknlimg arch/arm/boot/zImage $PKG_DIR/boot/kernel.img
-    ## It is now found in the scripts directory of the Linux tree, where they are covered by the kernel licence
-    $KERNEL_SRC_DIR/scripts/mkknlimg $KERNEL_OUT_DIR_V6/arch/arm/boot/zImage $PKG_DIR/boot/kernel.img
-    ## Remove symbolic links to non-existent headers and sources
-    rm -f ${MOD_DIR}/lib/modules/*/build
-    rm -f ${MOD_DIR}/lib/modules/*/source
-    ## Copy our modules across
-    cp -r ${MOD_DIR}/lib/* ${PKG_DIR}
-    ## Copy away the module dir so we cak use it for compiling drivers if we want
-    cp -r ${MOD_DIR}/lib/modules/*/* ${KERNEL_MOD_DIR}/
-    ## Copy our Module.symvers across
-    mkdir -p $PKG_DIR/headers/usr/src/linux-headers-$UNAME_STRING/
-    cp $KERNEL_OUT_DIR_V6/Module.symvers $PKG_DIR/headers/usr/src/linux-headers-$UNAME_STRING/
-    cp -f $KERNEL_OUT_DIR_V6/Module.symvers $KERNEL_BUILDER_DIR/extra/
-    cp -f $KERNEL_OUT_DIR_V6/System.map $KERNEL_BUILDER_DIR/extra/
 }
 
 function make_native_v7() {
@@ -713,26 +536,6 @@ function pkg_kernel() {
     cd -
 }
 
-
-function make_nexmon () {
-    ## Compiling nexmon firmware patches for Raspberry Pi 3
-    cp -r ${MOD_DIR}/lib/modules/*-v7*/* ${KERNEL_MOD_DIR}/
-    cd ${NEXMON_DIR}
-    source setup_env.sh
-    cd patches/bcm43438/7_45_41_26/nexmon
-    make
-    cd $KERNEL_BUILDER_DIR
-}
-
-function make_native_nexmon () {
-    ## Compiling nexmon firmware patches
-    cd ${NEXMON_DIR}
-    source setup_env.sh
-    cd patches/bcm43438/7_45_41_26/nexmon
-    make
-    cd $KERNEL_BUILDER_DIR
-}
-
 function import_archives() {
     rm -rf $PKG_DIR/headers
     cd $PKG_IN
@@ -751,8 +554,6 @@ function create_debs() {
     # copy debian files to package directory
     cp -r $FIRMWARE_DIR/debian $PKG_DIR
     touch $PKG_DIR/debian/files
-    ##cd $PKG_DIR/debian
-    ##sh ./gen_bootloader_postinst_preinst.sh
 
     cd $PKG_DIR
     dch -b -v ${NEW_VERSION} -D stable --force-distribution "Re4son Kernel source ${GIT_BRANCH}; firmware ${FW_BRANCH}"
@@ -772,9 +573,7 @@ function create_tar() {
     mkdir re4son-kernel_${NEW_VERSION}/tools
     mkdir re4son-kernel_${NEW_VERSION}/firmware
     mkdir re4son-kernel_${NEW_VERSION}/repo
-    mkdir re4son-kernel_${NEW_VERSION}/nexmon
     cp *armhf.deb re4son-kernel_${NEW_VERSION}
-    cp *armel.deb re4son-kernel_${NEW_VERSION}_armel
     cp *armhf.deb re4son-kernel_${NEW_VERSION}_armhf
     cp *arm64.deb re4son-kernel_${NEW_VERSION}_arm64
     cp -r $KERNEL_BUILDER_DIR/nexmon/* re4son-kernel_${NEW_VERSION}/nexmon
@@ -795,10 +594,6 @@ function create_tar() {
     mv -f re4son-kernel_${NEW_VERSION}.tar.xz $KERNEL_BUILDER_DIR
     sha256sum $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}.tar.xz > $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}.tar.xz.sha256
     chown $SUDO_UID:$SUDO_GID $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}.tar.xz* $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}.tar.xz.sha256
-    tar cJf re4son-kernel_${NEW_VERSION}_armel.tar.xz re4son-kernel_${NEW_VERSION}_armel
-    mv -f re4son-kernel_${NEW_VERSION}_armel.tar.xz $KERNEL_BUILDER_DIR
-    sha256sum $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}_armel.tar.xz > $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}_armel.tar.xz.sha256
-    chown $SUDO_UID:$SUDO_GID $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}_armel.tar.xz* $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}_armel.tar.xz.sha256
     tar cJf re4son-kernel_${NEW_VERSION}_armhf.tar.xz re4son-kernel_${NEW_VERSION}_armhf
     mv -f re4son-kernel_${NEW_VERSION}_armhf.tar.xz $KERNEL_BUILDER_DIR
     sha256sum $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}_armhf.tar.xz > $KERNEL_BUILDER_DIR/re4son-kernel_${NEW_VERSION}_armhf.tar.xz.sha256
@@ -825,7 +620,7 @@ check_root
 debug_info
 breakpoint "010-Root privileges checked"
 
-while getopts "hb:cnpexr:6:7:8:" opt; do
+while getopts "hb:cnpexr:7:8:" opt; do
   case "$opt" in
   h)  usage
       exit 0
@@ -886,12 +681,6 @@ if [ ! $NATIVE ] && [ ! $MAKE_HEADERS ] && [ ! $MAKE_PKG ] && [ ! $MAKE_NEXMON ]
 
     clean_kernel_src_dir
 
-    make_v6
-    make_headers $(basename $V6_DEFAULT_CONFIG) ${TOOLS_DIR}/arm-bcm2708/arm-bcm2708-linux-gnueabi/bin/arm-bcm2708-linux-gnueabi-
-    copy_files $UNAME_STRING
-    clean_kernel_src_dir
-    breakpoint "060-Kernel v6 compiled"
-
     make_v7
     debug_info
     make_headers $(basename $V7_DEFAULT_CONFIG) ${TOOLS_DIR}/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-
@@ -911,9 +700,6 @@ if [ ! $NATIVE ] && [ ! $MAKE_HEADERS ] && [ ! $MAKE_PKG ] && [ ! $MAKE_NEXMON ]
     debug_info
     breakpoint "090-Debian packages created"
 
-#    make_nexmon
-#    breakpoint "090-Nexmon drivers compiled"
-
     create_tar
     debug_info
 
@@ -921,15 +707,7 @@ if [ ! $NATIVE ] && [ ! $MAKE_HEADERS ] && [ ! $MAKE_PKG ] && [ ! $MAKE_NEXMON ]
 
 elif [ $NATIVE ]; then
     setup_repos
-    if [ $NAT_ARCH == "armel" ]; then
-        printf "\n\t**** Compiling natively on: $NAT_ARCH ****\n"
-        setup_native_v6_pkg_dir
-        debug_info
-        breakpoint "150-Pkg dir set up"
-        make_native_v6
-        breakpoint "160-Kernel v6 compiled"
-        pkg_kernel
-    elif [ $NAT_ARCH == "armhf" ]; then
+    if [ $NAT_ARCH == "armhf" ]; then
         printf "\n\t**** Compiling natively on: $NAT_ARCH ****\n"
         setup_native_v7_pkg_dir
         debug_info
@@ -953,20 +731,7 @@ fi
 
 if [ $MAKE_HEADERS ]; then
     printf "\n\t**** Building headers for: $NAT_ARCH ****\n"
-    if [ $NAT_ARCH == "armel" ]; then
-        debug_info
-        breakpoint "200-Ready to build headers"
-        make_headers $(basename $V6_DEFAULT_CONFIG)
-        if [ -f ${KERNEL_OUT_DIR_V6}/extra/Module.symvers ]; then
-            cp ${KERNEL_OUT_DIR_V6}/extra/Module.symvers ${KERNEL_HEADERS_OUT_DIR}/headers/usr/src/linux-headers-$ver/Module.symvers
-        fi
-        debug_info
-        breakpoint "210-headers built"
-        copy_files $UNAME_STRING
-        debug_info
-        breakpoint "220-headers copied"
-        pkg_headers
-    elif [ $NAT_ARCH == "armhf" ]; then
+    if [ $NAT_ARCH == "armhf" ]; then
         debug_info
         breakpoint "200-Ready to build headers"
         make_headers $(basename $V7_DEFAULT_CONFIG)
